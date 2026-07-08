@@ -20,6 +20,10 @@ Student(int id,string name,int age,string department,float cgpa);
 void inputStudent();
 void displayStudent() const;
 int getId() const;
+string getName() const;
+int getAge() const;
+string getDepartment() const;
+float getCGPA() const;
 };
 
 #endif

@@ -58,4 +58,25 @@ using namespace std;
 {
     return id;
 }
+
+string Student::getName() const
+{
+    return name;
+}
+
+int Student::getAge() const
+{
+    return age;
+}
+
+string Student::getDepartment() const
+{
+    return department;
+}
+
+float Student::getCGPA() const
+{
+    return cgpa;
+}
+
   
